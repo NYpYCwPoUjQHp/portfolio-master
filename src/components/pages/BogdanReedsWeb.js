@@ -37,7 +37,7 @@ function BogdanReedsWeb() {
                         I have created using React. I used the skills that I learned from creating this website (clairebogdan.com) to
                         create bogdanreeds.com. Each page of this website is a JavaScript file with HTML embedded.
                         The CSS files help format the pages and adjust the sizing for mobile viewing. I used the module react-router-dom
-                        to assist with routing and linking on the website and emailjs-com for email capability.
+                        to assist with routing and linking on the website and for email capability.
                         The Github repository for this website is used by Netlify for
                         deployment. Therefore, any edits I make and push to Github are automatically updated and deployed via Netlify.
                     </p>
