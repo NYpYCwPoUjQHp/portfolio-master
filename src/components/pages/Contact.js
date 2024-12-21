@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../../App.css';
 import '../styles/Contact.css';
 import '../styles/Button.css';
-// import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import emailjs from 'emailjs-com';
 import Clipboard from 'clipboard';
 
 const clip = new Clipboard('.copy');
@@ -14,7 +12,7 @@ clip.on("error", function () {
     alert("Could not copy email address");
 });
 
-class Contact extends Component {
+class Contact  {
 
 
     
