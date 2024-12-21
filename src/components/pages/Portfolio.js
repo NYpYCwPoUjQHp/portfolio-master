@@ -18,9 +18,6 @@ import roster from '../../assets/roster.png';
 import chatbot from '../../assets/chatbot.png';
 import hurricane from '../../assets/hurricane.png';
 import perfectfit from '../../assets/perfectfit.png';
-import oracle from '../../assets/certifications/oracle.png';
-import ciw_cert from '../../assets/certifications/ciw-cert.png';
-import comptia from '../../assets/certifications/comptia.png';
 import itil from '../../assets/certifications/itil.png';
 import resume from '../../assets/resume.pdf';
 import { Link } from 'react-router-dom';
@@ -154,17 +151,8 @@ function Portfolio() {
                 </div>
 
                 <div>
-                    <div className='project-title'>certificates</div>
+                    <div className='project-title'>certifications</div>
                     <div className="certifications-grid">
-                        <div className='cert'>
-                            <img src={oracle} alt='Oracle certification' width='60%' height='60%' />
-                        </div>
-                        <div className='cert'>
-                            <img src={ciw_cert} alt='CIW certification' width='100%' height='100%' />
-                        </div>
-                        <div className='cert'>
-                            <img src={comptia} alt='Project+ certification' width='60%' height='60%' />
-                        </div>
                         <div className='cert'>
                             <img src={itil} alt='ITIL certification' width='80%' height='80%' />
                         </div>
