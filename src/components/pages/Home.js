@@ -16,8 +16,8 @@ export default function Home() {
             <div className='mobile-container'>
                 <div className='mobile-text'>
                     <h2><i class="fas fa-laptop-code"></i> software engineer<br /><br />
-                        <i class="fas fa-apple-alt"></i> formerly in logistics<br /><br />
-                        <i class="fas fa-music"></i> volunteer<br /><br />
+                        <i class="fas fa-truck"></i> formerly in logistics<br /><br />
+                        <i class="fas fa-heart"></i> volunteer<br /><br />
                     </h2>
                     <Link to='/about' className='learn-more-btn-mobile'>
                         learn more <i class="fas fa-chevron-right"></i>
@@ -39,8 +39,8 @@ export default function Home() {
                 <div className='home-item'>
                     <div className='home-info'>
                         <h2><i class="fas fa-laptop-code"></i> software engineer<br /><br />
-                            <i class="fas fa-apple-alt"></i> formerly in logistics<br /><br />
-                            <i class="fas fa-music"></i> volunteer<br /><br />
+                            <i class="fas fa-truck"></i> formerly in logistics<br /><br />
+                            <i class="fas fa-heart"></i> volunteer<br /><br />
                         </h2>
                         <br />
                         <Link to='/about' className='learn-more-btn'>
