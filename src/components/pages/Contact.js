@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../../App.css';
 import '../styles/Contact.css';
 import '../styles/Button.css';
@@ -12,16 +12,16 @@ clip.on("error", function () {
     alert("Could not copy email address");
 });
 
-class Contact  {
 
 
-    
+class Contact extends Component {
+
 
     render() {
         return (
             <>
-            <div className='contact-title'>
-            Please copy my email address by clicking the mail icon, or message me on LinkedIn
+                <div className='contact-title'>
+                    Please copy my email address by clicking the mail icon, or message me on LinkedIn
                 </div>
                 <div className='grid-container'>
                     <div className='grid-item'>
@@ -43,10 +43,11 @@ class Contact  {
                     </div>
                 </div>
 
-                
+
             </>
         )
     }
 }
+
 
 export default Contact;
