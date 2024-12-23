@@ -3,7 +3,7 @@ import '../../App.css';
 import '../styles/About.css';
 import { Link } from 'react-router-dom';
 import resume from '../../assets/resume.pdf';
-import headshot2 from '../../assets/about_pics/headshot2.JPG'
+import headshot2 from '../../assets/about_pics/headshot2.jpg'
 import habitat from '../../assets/about_pics/habitat.jpg'
 
 export default function About() {
